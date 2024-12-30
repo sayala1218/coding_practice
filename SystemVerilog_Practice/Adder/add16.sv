@@ -5,7 +5,7 @@ module add16 (
     output [15:0] sum,
     output cout
 );
-    logic [16:0] total_logic;
+    logic unsigned [16:0] total_logic;
     
     assign total_logic = a + b + cin;
 
