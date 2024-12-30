@@ -15,11 +15,11 @@ module add16 (
 endmodule
 
 module add16_testbench();
-    logic [15:0] a,
-    logic [15:0] b,
-    logic cin,
-    logic [15:0] sum,
-    logic cout
+    logic [15:0] a;
+    logic [15:0] b;
+    logic cin;
+    logic [15:0] sum;
+    logic cout;
 
     add16 dut (.*);
 
