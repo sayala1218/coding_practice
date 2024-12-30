@@ -26,13 +26,15 @@ module addsub_testbench ();
     addsub dut (.*);
 
     initial begin
-        $monitor(a);
-        $monitor(b);
-        for(int i = 0; i < 16; i++) begin
-            a = i;
-            for(int j = 0; j < 16; j++) begin
-                b = j;
-            end
-        end
+       a = 32'd0;   b = 32'd0;  sub = 0;    #10;
+       a = 32'd0;   b = 32'd1;  sub = 0;    #10;
+       a = 32'd0;   b = 32'd2;  sub = 0;    #10;
+       a = 32'd1;   b = 32'd1;  sub = 0;    #10;
+       a = 32'd2;   b = 32'd2;  sub = 1;    #10;
+    //    a = 32'd0;   b = 32'd0;  sub = 0;    #10;
+    //    a = 32'd0;   b = 32'd0;  sub = 0;    #10;
+    //    a = 32'd0;   b = 32'd0;  sub = 0;    #10;
+    //    a = 32'd0;   b = 32'd0;  sub = 0;    #10;
+    //    a = 32'd0;   b = 32'd0;  sub = 0;    #10;
     end
 endmodule
