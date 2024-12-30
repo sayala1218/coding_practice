@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/steph/Desktop/coding_practice/SystemVerilog_Practice/Adder
+vadd16
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1735587690
+!i10b 1
+!s100 ]O]?z[hiDRo]1kY_ME_<T2
+I1lBR?`lbQ5dNB`_@MMh5>0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 add16_sv_unit
+S1
+R0
+Z5 w1735582587
+Z6 8./add16.sv
+Z7 F./add16.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1735587690.000000
+Z10 !s107 ./add16.sv|
+Z11 !s90 -reportprogress|300|./add16.sv|
+!i113 1
+Z12 tCvgOpt 0
+vadd16_testbench
+R1
+R2
+!i10b 1
+!s100 SXF4T5hI28bRL7oLaDmOS3
+I0C8`S56LW;VYJCl_2SR9<0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 17
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vaddsub
+R1
+R2
+!i10b 1
+!s100 [iHkYYolm@jM>KInZ23i21
+IoefWLon63bhl;Ql1>A02A2
+R3
+Z13 !s105 addsub_sv_unit
+S1
+R0
+Z14 w1735587656
+Z15 8./addsub.sv
+Z16 F./addsub.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z17 !s107 ./addsub.sv|
+Z18 !s90 -reportprogress|300|./addsub.sv|
+!i113 1
+R12
+vaddsub_testbench
+R1
+R2
+!i10b 1
+!s100 O;N855lAONej5GLEJ727C0
+IGTPdk:Kk3IPZ9dhSP@3223
+R3
+R13
+S1
+R0
+R14
+R15
+R16
+L0 20
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 1
+R12

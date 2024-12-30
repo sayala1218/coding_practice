@@ -1,0 +1,252 @@
+# Reading C:/intelFPGA/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:35 on Dec 30,2024
+# vlog -reportprogress 300 ./add16.sv 
+# -- Compiling module add16
+# -- Compiling module add16_testbench
+# ** Error: (vlog-13069) ./add16.sv(19): near "input": syntax error, unexpected input, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: ./add16.sv(27): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 09:58:35 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# C:/intelFPGA/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./add16.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:02:25 on Dec 30,2024
+# vlog -reportprogress 300 ./add16.sv 
+# -- Compiling module add16
+# -- Compiling module add16_testbench
+# ** Error: (vlog-13069) ./add16.sv(19): near "logic": syntax error, unexpected "SystemVerilog keyword 'logic'", expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: ./add16.sv(27): (vlog-2730) Undefined variable: 'b'.
+# ** Error: ./add16.sv(27): (vlog-2730) Undefined variable: 'cin'.
+# End time: 10:02:25 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/intelFPGA/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# C:/intelFPGA/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./add16.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:03:00 on Dec 30,2024
+# vlog -reportprogress 300 ./add16.sv 
+# -- Compiling module add16
+# -- Compiling module add16_testbench
+# 
+# Top level modules:
+# 	add16_testbench
+# End time: 10:03:00 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work add16_testbench 
+# Start time: 10:03:02 on Dec 30,2024
+# Loading sv_std.std
+# Loading work.add16_testbench
+# Loading work.add16
+# ** Error: Cannot open macro file: add16_wave.do
+# Error in macro ./runlab.do line 17
+# Cannot open macro file: add16_wave.do
+#     while executing
+# "do add16_wave.do"
+add wave -position end sim:/add16_testbench/dut/*
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/steph/Desktop/coding_practice/SystemVerilog_Practice/Adder/add16_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:06:23 on Dec 30,2024
+# vlog -reportprogress 300 ./add16.sv 
+# -- Compiling module add16
+# -- Compiling module add16_testbench
+# 
+# Top level modules:
+# 	add16_testbench
+# End time: 10:06:23 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:06:24 on Dec 30,2024, Elapsed time: 0:03:22
+# Errors: 3, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work add16_testbench 
+# Start time: 10:06:24 on Dec 30,2024
+# Loading sv_std.std
+# Loading work.add16_testbench
+# Loading work.add16
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do rn
+# Cannot open macro file: rn
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:11:33 on Dec 30,2024
+# vlog -reportprogress 300 ./add16.sv 
+# -- Compiling module add16
+# -- Compiling module add16_testbench
+# 
+# Top level modules:
+# 	add16_testbench
+# End time: 10:11:33 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:11:34 on Dec 30,2024, Elapsed time: 0:05:10
+# Errors: 1, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work add16_testbench 
+# Start time: 10:11:34 on Dec 30,2024
+# Loading sv_std.std
+# Loading work.add16_testbench
+# Loading work.add16
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/steph/Desktop/coding_practice/SystemVerilog_Practice/Adder/add16_wave.do
+do run
+# Cannot open macro file: run
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:10 on Dec 30,2024
+# vlog -reportprogress 300 ./add16.sv 
+# -- Compiling module add16
+# -- Compiling module add16_testbench
+# 
+# Top level modules:
+# 	add16_testbench
+# End time: 10:12:10 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:12:11 on Dec 30,2024, Elapsed time: 0:00:37
+# Errors: 1, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work add16_testbench 
+# Start time: 10:12:11 on Dec 30,2024
+# Loading sv_std.std
+# Loading work.add16_testbench
+# Loading work.add16
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:32 on Dec 30,2024
+# vlog -reportprogress 300 ./add16.sv 
+# -- Compiling module add16
+# -- Compiling module add16_testbench
+# 
+# Top level modules:
+# 	add16_testbench
+# End time: 10:16:32 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:16:33 on Dec 30,2024, Elapsed time: 0:04:22
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work add16_testbench 
+# Start time: 10:16:33 on Dec 30,2024
+# Loading sv_std.std
+# Loading work.add16_testbench
+# Loading work.add16
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/steph/Desktop/coding_practice/SystemVerilog_Practice/Adder/add16_wave.do
+do run
+# Cannot open macro file: run
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:35:45 on Dec 30,2024
+# vlog -reportprogress 300 ./add16.sv 
+# -- Compiling module add16
+# -- Compiling module add16_testbench
+# 
+# Top level modules:
+# 	add16_testbench
+# End time: 11:35:45 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:35:45 on Dec 30,2024
+# vlog -reportprogress 300 ./addsub.sv 
+# -- Compiling module addsub
+# -- Compiling module addsub_testbench
+# 
+# Top level modules:
+# 	addsub_testbench
+# End time: 11:35:45 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:35:47 on Dec 30,2024, Elapsed time: 1:19:14
+# Errors: 1, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work addsub_testbench 
+# Start time: 11:35:48 on Dec 30,2024
+# Loading sv_std.std
+# Loading work.addsub_testbench
+# Loading work.addsub
+# Loading work.add16
+# ** Warning: (vsim-3015) ./addsub.sv(14): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: ./add16.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /addsub_testbench/dut/low File: ./add16.sv
+# ** Error: Cannot open macro file: addsub_wave.do
+# Error in macro ./runlab.do line 18
+# Cannot open macro file: addsub_wave.do
+#     while executing
+# "do addsub_wave.do"
+add wave -position end sim:/addsub_testbench/dut/*
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/steph/Desktop/coding_practice/SystemVerilog_Practice/Adder/addsub_wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/steph/Desktop/coding_practice/SystemVerilog_Practice/Adder/addsub_wave.do
+add wave -position end sim:/addsub_testbench/dut/*
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:36:59 on Dec 30,2024
+# vlog -reportprogress 300 ./add16.sv 
+# -- Compiling module add16
+# -- Compiling module add16_testbench
+# 
+# Top level modules:
+# 	add16_testbench
+# End time: 11:36:59 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:36:59 on Dec 30,2024
+# vlog -reportprogress 300 ./addsub.sv 
+# -- Compiling module addsub
+# -- Compiling module addsub_testbench
+# 
+# Top level modules:
+# 	addsub_testbench
+# End time: 11:36:59 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:37:00 on Dec 30,2024, Elapsed time: 0:01:12
+# Errors: 3, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work addsub_testbench 
+# Start time: 11:37:00 on Dec 30,2024
+# Loading sv_std.std
+# Loading work.addsub_testbench
+# Loading work.addsub
+# Loading work.add16
+# ** Warning: (vsim-3015) ./addsub.sv(14): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: ./add16.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /addsub_testbench/dut/low File: ./add16.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#         15
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:41:30 on Dec 30,2024
+# vlog -reportprogress 300 ./add16.sv 
+# -- Compiling module add16
+# -- Compiling module add16_testbench
+# 
+# Top level modules:
+# 	add16_testbench
+# End time: 11:41:30 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:41:30 on Dec 30,2024
+# vlog -reportprogress 300 ./addsub.sv 
+# -- Compiling module addsub
+# -- Compiling module addsub_testbench
+# 
+# Top level modules:
+# 	addsub_testbench
+# End time: 11:41:30 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
