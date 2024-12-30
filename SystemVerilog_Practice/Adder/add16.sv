@@ -27,5 +27,8 @@ module add16_testbench();
         a = 16'd0;  b = 16'd4;  cin = 1;    #10;
         a = 16'd5;  b = 16'd5;              #10;
         a = 16'd10; b = 16'd1;  cin = 0;    #10;
+        a = '1;     b = '0;                 #10;
+        a = '1;     b = '0;     cin = 1;    #10;
+
     end
 endmodule
