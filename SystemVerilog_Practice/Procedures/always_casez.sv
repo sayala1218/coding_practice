@@ -1,9 +1,8 @@
-// synthesis verilog_input_version verilog_2001
 module always_casez (
     input [7:0] in,
     output reg [2:0] pos );
 
-    always @(*) begin
+    always_comb begin
         casez (in)
             8'bzzzzzzz1 : pos = 3'd0;
             8'bzzzzzz10 : pos = 3'd1;
