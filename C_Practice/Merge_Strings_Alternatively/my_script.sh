@@ -14,7 +14,7 @@ if [ $? -eq 0 ]; then # $? is a special variable that holds the exit status of t
     echo " "
     ./mergeAlt "abcd" "pq"
     echo " "
-    echo "Sucessfully compiled and ran the program."
+    echo "Successfully compiled and ran the program."
 else
     echo "Compilation failed."
 fi
